@@ -1,0 +1,19 @@
+{
+	"name": "gitprac",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2025-11-17T14:07:05Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

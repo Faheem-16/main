@@ -1,0 +1,9 @@
+{
+	"name": "devigitprac",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38758000-8669-4272-8e58-cef3573b212f",
+		"tenantId": "d3751035-b461-43e4-90b1-0bfef530aba8"
+	}
+}
