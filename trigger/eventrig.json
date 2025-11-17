@@ -1,0 +1,25 @@
+{
+	"name": "eventrig",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "nov10eventrig",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/eventriginput/blobs/mov",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/2c7e412b-77fa-4cc2-9f0f-8c5969224ca1/resourceGroups/devidevrg/providers/Microsoft.Storage/storageAccounts/stgdevibulk",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

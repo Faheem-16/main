@@ -1,0 +1,9 @@
+{
+	"name": "devidevadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f3d7a6ef-d4ff-4075-87fc-b685a3bb16d8",
+		"tenantId": "d3751035-b461-43e4-90b1-0bfef530aba8"
+	}
+}

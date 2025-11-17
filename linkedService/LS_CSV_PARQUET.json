@@ -1,0 +1,12 @@
+{
+	"name": "LS_CSV_PARQUET",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=stgdevibulk;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU2Qjk3NjVBLThFRTEtNEFCQy1CQzM0LTE2QkIwQzk5ODYyMl8yZGZlODY3ZS1iYTE0LTQ1MjctOTZmNi1jNDkwYzcyYzBhNTQiDQp9"
+		}
+	}
+}
